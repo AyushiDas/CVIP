@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="account-section">
+                <img src="acc.png" alt="Account Picture" class="account-picture">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Comedy</a></li>
+                        <li><a href="#">Horror</a></li>
+                        <li><button class="myListBtn" id="myListButton">+ My List</button></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Video Trailer Section -->
+    <section class="video-trailer">
+        <div class="video-overlay">
+            <h2 class="video-title">Money Heist</h2>
+            <p>A criminal mastermind who goes by "The Professor" has a plan to pull off the biggest heist in recorded history -- to print billions of euros in the Royal Mint of Spain.</p>
+            <button class="playBtn">Play</button>
+            
+        </div>
+        <video controls autoplay>
+            <source src="v2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+        <main class="main-content">
+            <div class="recommended-section" id="home">
+            <h2>Recommended for You</h2>
+            <div class="movie-list">
+                <div class="movie">
+                    <img src="movie1.jpg" alt="Movie 1">
+                </div>
+                <div class="movie">
+                    <img src="movie2.jpg" alt="Movie 2">
+                </div>
+                <div class="movie">
+                    <img src="movie3.jpg" alt="Movie 3">
+                </div>
+                <div class="movie">
+                    <img src="movie4.jpg" alt="Movie 4">
+                </div>
+                <div class="movie">
+                    <img src="movie5.jpg" alt="Movie 5">
+                </div>
+                <div class="movie">
+                    <img src="movie6.jpg" alt="Movie 6">
+                </div>
+                <div class="movie">
+                    <img src="movie7.jpg" alt="Movie 7">
+                </div>
+                <div class="movie">
+                    <img src="movie8.jpg" alt="Movie 8">
+                </div>
+                <div class="movie">
+                    <img src="movie9.jpg" alt="Movie 9">
+                </div>
+                <div class="movie">
+                    <img src="movie10.jpg" alt="Movie 10">
+                </div>
+            </div>
+           
+        </div>
+
+        <div class="recommended-section">
+            <h2>Continue Watching</h2>
+            <div class="movie-list">
+                <!--  Continue Watching Movies  -->
+                <div class="movie">
+                    <img src="cw1.png" alt="Movie 5">
+                </div>
+                 <div class="movie">
+                    <img src="cw2.png" alt="Movie 5">
+                </div>
+                <div class="movie">
+                    <img src="cw3.png" alt="Movie 5">
+                </div>
+                <div class="movie">
+                    <img src="cw4.png" alt="Movie 5">
+                </div>
+                <div class="movie">
+                    <img src="cw5.png" alt="Movie 5">
+                </div>
+                <div class="movie">
+                    <img src="cw6.png" alt="Movie 5">
+                </div>
+            </div>
+        </div>
+
+        <div class="recommended-section" id="comedy">
+            <h2>Comedy</h2>
+            <div class="movie-list">
+                <!--  Comedy Movies -->
+                <div class="movie">
+                    <img src="c1.jpg" alt="Movie 1">
+                </div>
+                <div class="movie">
+                    <img src="c2.jpg" alt="Movie 2">
+                </div>
+                <div class="movie">
+                    <img src="c3.jpg" alt="Movie 3">
+                </div>
+                <div class="movie">
+                    <img src="c4.jpg" alt="Movie 4">
+                </div>
+                <div class="movie">
+                    <img src="c5.jpg" alt="Movie 5">
+                </div>
+                <div class="movie">
+                    <img src="c6.jpg" alt="Movie 5">
+                </div>
+                <div class="movie">
+                    <img src="c7.jpg" alt="Movie 5">
+                </div>
+                <div class="movie">
+                    <img src="c8.jpg" alt="Movie 5">
+                </div>
+                <div class="movie">
+                    <img src="c9.jpg" alt="Movie 5">
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="recommended-section" id="horror">
+            <h2>Horror</h2>
+            <div class="movie-list">
+                <!--  Horror Movies  -->
+                <div class="movie">
+                    <img src="h1.jpg" alt="Movie 5">
+                </div>
+                <div class="movie">
+                    <img src="h2.jpg" alt="Movie 5">
+                </div>
+                <div class="movie">
+                    <img src="h3.jpg" alt="Movie 5">
+                </div>
+                <div class="movie">
+                    <img src="h4.jpg" alt="Movie 5">
+                </div>
+                <div class="movie">
+                    <img src="h5.jpg" alt="Movie 5">
+                </div>
+                <div class="movie">
+                    <img src="h6.jpg" alt="Movie 5">
+                </div>
+                <div class="movie">
+                    <img src="h7.jpg" alt="Movie 5">
+                </div>
+                <div class="movie">
+                    <img src="h8.jpg" alt="Movie 5">
+                </div>
+                <div class="movie">
+                    <img src="h9.jpg" alt="Movie 5">
+                </div>
+                <div class="movie">
+                    <img src="h10.jpg" alt="Movie 5">
+                </div>
+                <div class="movie">
+                    <img src="h11.jpg" alt="Movie 5">
+                </div>
+            </div>
+           
+<section id="my-list-section">
+    <h2>My List</h2>
+    <div class="movie">
+        <img src="movie1.jpg" alt="Movie 1">
+        <h3>Movie 1</h3>
+    </div>
+    <div class="movie">
+        <img src="movie2.jpg" alt="Movie 2">
+        <h3>Movie 2</h3>
+    </div>
+</section>     
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2023 Netflix Clone</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
