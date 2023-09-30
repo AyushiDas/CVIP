@@ -1,0 +1,125 @@
+/* Reset styles */
+body, h1, h2, ul, p, table, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Header */
+header {
+   
+    background: rgb(117, 95, 172);
+    color: rgb(245, 243, 243);
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Navigation Links */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+}
+
+/* Body */
+body {
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(250, 250, 250));
+   
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px; 
+    text-align: center;
+}
+
+/* Sections */
+section {
+    font-size: 22px;
+    padding: 2rem;
+    margin: 2rem auto;
+    background-color: rgb(225, 219, 228);
+    border: 0.5px solid black;
+    border-radius: 8px;
+    box-shadow: 0 3px 4px rgb(43, 40, 40);
+    max-width: 800px;
+    text-align: center; /* Center section content */
+}
+
+/* Skills */
+.skill-box {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    background-color: #3498db; /* Blue color */
+    color: white;
+    border-radius: 4px;
+}
+
+/* Education Table */
+table {
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    background-color: white;
+}
+
+table, th, td {
+    border: 2px solid #0b0909;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Projects */
+.project-section {
+    text-align: center;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+/* Projects */
+.project-section {
+    text-align: center;
+    max-width: 800px;
+    margin: 2rem auto;
+    align-items: center;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.project img {
+    max-width: 150px;
+    margin-right: 1rem;
+    align-items: center;
+}
+
+/* Contact Links */
+#contact-section {
+    text-align: center;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+#contact-section ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#contact-section ul li a:hover {
+    text-decoration: underline;
+}
